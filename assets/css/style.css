@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Bree+Serif&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Menu */
+.header-section {
+    background: #235492;
+}
+
+.header-section {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top:0;
+  }
+
+#menu-link {
+    margin: auto;
+}
+
+#menu-link .nav-item {
+    margin: 0 15px;
+}
+
+#menu-link .nav-item .nav-link {
+    color: #ffffff;
+    /* font-family: "Baloo Bhaijaan 2", cursive; */
+    font-family: "Bree Serif", serif;
+    font-size: 1.2rem;
+}
+
+#menu-link .nav-item .nav-link:hover {
+    color: #ff9c00;
+}
+
+.social-icons ul {
+    list-style: none;
+    margin-bottom: 0;
+
+}
+
+.social-icons ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons ul li a {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+
+/* logo */
+.navbar .navbar-brand a h1 {
+    color: #ffffff;
+    font-family: "Bree Serif", serif;
+    font-size: 2rem;
+}
+
+a h1:hover {
+    color: #ff9c00;
+}
+
+/* Header Logo End */
+
+/* section spotlight */
+.spotlight-section {
+    background-color: #ecf0f1;
+    margin-top: 60px;
+}
+
+.spotlight-section .item-img {
+    padding:20px 20px 0 0 ;
+}
+
+.spotlight-section .item-details {
+    color: #07276f;
+    padding: 20px;
+
+}
+
+.spotlight-section .item-details h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 30px;
+}
+
+.spotlight-section .item-details p {
+    font-weight: 200;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 30px;
+}
+
+.spotlight-section .item-details .btn {
+    background-color: #1abc9c;
+    font-weight: 200;
+    font-family: 'Bree Serif', serif;
+    padding: 10px 25px;
+    color: #ffffff;
+    border-color: 0;
+}
+
+
+
+/*end section spotlight */
+
+/* About Us Section */
+.about-us-section {
+    margin: 80px 0;
+}
+
+.about-us-section .about-us-details {
+    text-align: center;
+}
+
+.about-us-section .about-us-details h2 {
+    font-size: 3rem;
+    color: #07276f;
+    font-weight: 800;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 30px;
+}
+
+.about-us-details h2::after {
+    content: " ";
+    background: #07276f;
+    width: 150px;
+    height: 3px;
+    display: block;
+    margin: 10px auto;
+}
+
+.about-us-section .about-us-details p {
+    text-align: justify;
+    font-weight: 200;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 30px;
+}
+
+.about-us-section .about-us-details .btn {
+    background-color: #1abc9c;
+    color: #ffffff;
+    font-weight: 200;
+    font-family: 'Bree Serif', serif;
+    padding: 10px 25px;
+}
+
+/*End About Us Section */
+
+/* Service Section */
+
+.service-section {
+    margin: 80px 0;
+}
+
+.service-section .service-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-section .service-heading h2 {
+    color: #07276f;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Bree Serif', serif;
+}
+
+.service-heading h2::after {
+    content: " ";
+    background: #07276f;
+    width: 200px;
+    height: 3px;
+    display: block;
+    margin: 10px auto;
+}
+
+.service-section .service-detail {
+    text-align: center;
+    box-shadow: 5px 10px 12px 2px #ecf0f1;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 10px 30px 10px;
+
+}
+
+.service-detail .service-info {
+    padding: 20px;
+}
+
+.service-detail .service-info h3 {
+    color: #07276f;
+    font-weight: 800;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 20px;
+}
+
+.service-detail .service-info p {
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.service-detail .service-info .btn {
+    background: #07276f;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-family: 'Bree Serif', serif;
+}
+
+/* End Service Section */
+
+/* footer slider */
+.footer-slider {
+    background: #011021;
+    padding: 100px 0;
+}
+
+.footer-slider .col1-details {
+    color: #ffffff;
+    font-family: 'Bree Serif', serif;
+}
+
+.footer-slider .col-details .nav .nav-item .nav-link,
+h5,
+address,
+span {
+    color: #ffffff;
+    font-family: 'Bree Serif', serif;
+
+}
+
+.footer-slider .nav .nav-item .nav-link {
+    padding: 5px 0;
+}
+
+.footer-slider .nav .nav-item .nav-link:hover {
+    color: #ff9c00;
+}
+
+.footer-slider .contact-us a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Bree Serif', serif;
+}
+
+.footer-slider .contact-us a:hover {
+    color: #ff9c00;
+}
+
+
+.footer-slider .contact-us .fa-phone::before {
+    content: "\f095";
+    padding-right: 5px;
+}
+
+.footer-slider .contact-us .fa-envelope-o::before {
+    content: "\f003";
+    padding-right: 5px;
+}
+
+.footer-slider h5::after {
+    content: "";
+    background: #fff;
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+.footer-slider h5:hover::after {
+    width: 50%;
+}
+
+footer {
+    background: #011021;
+    text-align: center;
+    border-top: 1px solid #ecf0f1;
+}
+
+
+footer p {
+    margin-bottom: 0;
+    padding: 20px;
+    color: #ffffff;
+    font-family: "Bree Serif", serif;
+}
+
+/* end footer slider */
+
+
+/* Media Query */
+
+@media (max-width:991px) {
+
+    .header-section #menu-link .nav-item {
+        margin: 0;
+    }
+
+    .header-section .social-icons ul {
+        padding: 0;
+    }
+
+    .header-section .social-icons ul li {
+        margin: 0 10px 0 0;
+
+    }
+
+
+}
